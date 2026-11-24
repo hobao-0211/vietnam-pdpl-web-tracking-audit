@@ -1,5 +1,8 @@
 # Replication Package: Pre-Consent Web Tracking, Cross-Border Flows, and Policy Disclosure in Vietnam (First-Year PDPL Baseline)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24489835.svg)](https://doi.org/10.5281/zenodo.24489835)
+
+**Zenodo Archive (v1.0.1):** https://doi.org/10.5281/zenodo.24489835 (Concept DOI: https://doi.org/10.5281/zenodo.24489834)  
 **Author:** Bao Ho, Faculty of Law, Hung Vuong University of Ho Chi Minh City (`baoh@dhv.edu.vn`, ORCID `0009-0003-3620-2472`)  
 **Target Journal:** *Journal of Cybersecurity and Privacy* (MDPI)  
 **Measurement Window:** Wave 1 (22 November 2026, `n = 946` / `997` sampled); Wave 2 test–retest (24 November 2026, 36.5 h interval, `n = 107` paired / `150` sampled)

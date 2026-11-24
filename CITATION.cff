@@ -9,6 +9,7 @@ authors:
     affiliation: "Faculty of Law, Hung Vuong University of Ho Chi Minh City, Ho Chi Minh City, Vietnam"
     email: "baoh@dhv.edu.vn"
 version: "1.0.1"
+doi: "10.5281/zenodo.24489835"
 date-released: "2026-11-24"
 repository-code: "https://github.com/hobao-0211/vietnam-pdpl-web-tracking-audit"
 license: "MIT"
