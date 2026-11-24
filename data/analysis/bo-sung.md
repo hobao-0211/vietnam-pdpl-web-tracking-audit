@@ -1,0 +1,21 @@
+# Số liệu bổ sung (tự sinh bởi code/stats_extra.py)
+
+- Site có I3 và có cơ chế đồng ý (banner gộp): 22/282; I3 mà không có cơ chế đồng ý: 260/282 = 92.2% [88.5–94.8]
+- Trong 34 site có cơ chế đồng ý: I2 26, I3 22 (luồng xảy ra trước khi bấm)
+- Độ nhạy cách đọc H (Q-A): I2 chỉ tính bên nhận có tài khoản người dùng ['ByteDance Ltd.', 'Facebook, Inc.', 'Google LLC', 'Microsoft Corporation', 'VNG Corporation'] — vn: 341/578 = 59.0% [54.9–62.9]
+- Độ nhạy cách đọc H (Q-A): I2 chỉ tính bên nhận có tài khoản người dùng ['ByteDance Ltd.', 'Facebook, Inc.', 'Google LLC', 'Microsoft Corporation', 'VNG Corporation'] — nonvn: 21/26 = 80.8% [62.1–91.5]
+- Độ nhạy cách đọc H (Q-A): I2 chỉ tính bên nhận có tài khoản người dùng ['ByteDance Ltd.', 'Facebook, Inc.', 'Google LLC', 'Microsoft Corporation', 'VNG Corporation'] — gov: 33/175 = 18.9% [13.8–25.3]
+- Độ nhạy cách đọc H (Q-A): I2 chỉ tính bên nhận có tài khoản người dùng ['ByteDance Ltd.', 'Facebook, Inc.', 'Google LLC', 'Microsoft Corporation', 'VNG Corporation'] — edu: 35/167 = 21.0% [15.5–27.7]
+- Độ nhạy cách đọc H (Q-A): I2 chỉ tính bên nhận có tài khoản người dùng ['ByteDance Ltd.', 'Facebook, Inc.', 'Google LLC', 'Microsoft Corporation', 'VNG Corporation'] — tất cả: 430/946 = 45.5% [42.3–48.6]
+- Site I2 mà mọi bên nhận định danh đều là Google: 132/452 = 29.2% [25.2–33.6]
+- Số entity nhận định danh trung vị trên site I2: 2
+- Luồng tới entity chưa rõ trụ sở: 118/2391 = 4.9% (92 entity)
+- RQ3 độ nhạy (unknown=VN): site có ≥1 luồng tới entity nước ngoài 434/946 = 45.9% [42.7–49.1]
+- RQ3 độ nhạy (unknown=foreign): site có ≥1 luồng tới entity nước ngoài 445/946 = 47.0% [43.9–50.2]
+- RQ3 theo tầng vn: 346/578 = 59.9% [55.8–63.8]
+- RQ3 theo tầng nonvn: 21/26 = 80.8% [62.1–91.5]
+- RQ3 theo tầng gov: 32/175 = 18.3% [13.3–24.7]
+- RQ3 theo tầng edu: 35/167 = 21.0% [15.5–27.7]
+- Site có luồng nước ngoài và có chính sách: 240; chính sách nhắc chuyển ra nước ngoài (AFF/COND): 44/240 = 18.3% [13.9–23.7]
+- Luồng định danh theo loại bên nhận: ads 1148 (48.0%); functional 428 (17.9%); analytics 402 (16.8%); social 215 (9.0%); unclassified 197 (8.2%); other 1 (0.0%)
+- Bên nhận định danh chưa phân loại: 197/2391 cặp site×host

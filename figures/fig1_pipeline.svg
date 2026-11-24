@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+<rect width="1200" height="540" fill="#FFFFFF"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#1B365D"/></marker></defs>
+<text x="600.0" y="34" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="18" font-weight="bold" fill="#1B365D">K7 Measurement Instrument and Four-Tier PDPL Evidentiary Pipeline</text>
+<rect x="25" y="60" width="265" height="255" rx="8" fill="#F8FAFC" stroke="#1B365D" stroke-width="1.8"/>
+<path d="M 33 60 H 282 Q 290 60 290 68 V 92 H 25 V 68 Q 25 60 33 60 Z" fill="#1B365D"/>
+<text x="157.5" y="81" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">1. Deterministic Sampling Frame</text>
+<text x="37" y="112" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">CrUX VN 2026-10 (315,227 origins)</text>
+<text x="37" y="131" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">PSL eTLD+1 deduplication + blocklist</text>
+<text x="37" y="150" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• gov: census *.gov.vn top-50k (201)</text>
+<text x="37" y="169" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• edu: random *.edu.vn top-10k (170)</text>
+<text x="37" y="188" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• vn: random other *.vn top-10k (600)</text>
+<text x="37" y="207" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• nonvn: top-1k VI + VN signal (26)</text>
+<text x="37" y="226" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">──────────────────────────</text>
+<text x="37" y="245" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Crawl target: 997 registered domains</text>
+<text x="37" y="264" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Measured (A &amp; B OK): 946 (5.1% err)</text>
+<text x="37" y="283" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">Post-strata: TM, BC, GOV, EDU, GATED</text>
+<rect x="325" y="60" width="265" height="255" rx="8" fill="#F8FAFC" stroke="#0072B2" stroke-width="1.8"/>
+<path d="M 333 60 H 582 Q 590 60 590 68 V 92 H 325 V 68 Q 325 60 333 60 Z" fill="#0072B2"/>
+<text x="457.5" y="81" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">2. In-Country Browser Crawl</text>
+<text x="337" y="112" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Vantage: In-country Vietnam IP</text>
+<text x="337" y="131" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">Chrome 153 headless, vi-VN, 1366×768</text>
+<text x="337" y="150" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• Profile A (clean): load, 15s, no gesture</text>
+<text x="337" y="169" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">   → requests, IPs, cookies, DOM, shot</text>
+<text x="337" y="188" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• Profile B (clean): replicate, 15s</text>
+<text x="337" y="207" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• Profile C (if reject btn): click, 15s</text>
+<text x="337" y="226" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• Policy fetch: rendered DOM text</text>
+<text x="337" y="245" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">──────────────────────────</text>
+<text x="337" y="264" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Sensitivity &amp; reliability checks:</text>
+<text x="337" y="283" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">sens30 (97), nomedia (98), W2 (107)</text>
+<rect x="625" y="60" width="265" height="255" rx="8" fill="#F8FAFC" stroke="#009E73" stroke-width="1.8"/>
+<path d="M 633 60 H 882 Q 890 60 890 68 V 92 H 625 V 68 Q 625 60 633 60 Z" fill="#009E73"/>
+<text x="757.5" y="81" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">3. Attribution &amp; Verification</text>
+<text x="637" y="112" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Strict ID (Protocol §3.3):</text>
+<text x="637" y="131" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">3P cookie (&gt;24h, ≥8c) or URL (≥2 req)</text>
+<text x="637" y="150" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">differing across clean profiles A vs B</text>
+<text x="637" y="169" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Extended ID (F10 sensitivity):</text>
+<text x="637" y="188" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">+ Verified 1P→3P cookie-sync (GA4/FB)</text>
+<text x="637" y="207" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Entity &amp; Geo Attribution:</text>
+<text x="637" y="226" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">DDG + Disconnect + VN_SUPP (full host)</text>
+<text x="637" y="245" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">Entity HQ (95.1%) vs DB-IP IP (99.7%)</text>
+<text x="637" y="264" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Policy Cleaning &amp; Validation:</text>
+<text x="637" y="283" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">363 raw → 331 valid; SimHash + EP κ</text>
+<rect x="925" y="60" width="250" height="255" rx="8" fill="#FFF8F5" stroke="#D55E00" stroke-width="1.8"/>
+<path d="M 933 60 H 1167 Q 1175 60 1175 68 V 92 H 925 V 68 Q 925 60 933 60 Z" fill="#D55E00"/>
+<text x="1050.0" y="81" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">4. PDPL Evidentiary Ladder</text>
+<text x="937" y="112" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">No &#x27;violation&#x27; conclusions drawn.</text>
+<text x="937" y="131" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• B0 Observed: any 3P request (I1)</text>
+<text x="937" y="150" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• B1 Identifier-bearing: A≠B ID (I2)</text>
+<text x="937" y="169" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• B2 Consent-relevant: B1 + Art. 2(1)</text>
+<text x="937" y="188" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">   reading R + no Art. 19 exception</text>
+<text x="937" y="207" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">   (I4 analytics, I6 Art. 20(1)(c))</text>
+<text x="937" y="226" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">• B3 Prima facie inconsistent:</text>
+<text x="937" y="245" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">   B2 + advertising entity (I3/I8) +</text>
+<text x="937" y="264" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#1E293B">   no pre-flow consent [Art. 28(8)(a)]</text>
+<text x="937" y="283" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">Gate passed: W2 κ = 0.76–1.00</text>
+<line x1="290" y1="188" x2="322" y2="188" stroke="#1B365D" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="590" y1="188" x2="622" y2="188" stroke="#1B365D" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="890" y1="188" x2="922" y2="188" stroke="#1B365D" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="25" y="345" width="1150" height="170" rx="8" fill="#F1F5F9" stroke="#5A6570" stroke-width="1.2"/>
+<text x="42" y="370" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1B365D">Statutory Mapping Matrix (Law No. 91/2025/QH15 [PDPL] &amp; Decree No. 356/2025/NĐ-CP — Official Gazette Texts)</text>
+<text x="42" y="395" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#0072B2">Research Question</text>
+<text x="235" y="395" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#0072B2">Operational Indicators</text>
+<text x="440" y="395" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#0072B2">Primary Legal Provisions</text>
+<text x="815" y="395" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#0072B2">Claim Ceiling (B0–B3)</text>
+<line x1="40" y1="402" x2="1160" y2="402" stroke="#CBD5E1" stroke-width="1"/>
+<text x="42" y="423" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">RQ1 Pre-Consent Tracking</text>
+<text x="235" y="423" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">I1–I5 (Strict &amp; F10 Ext)</text>
+<text x="440" y="423" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">PDPL Art. 2(1), 9, 11(1), 28(8)(a); Decree 356 Art. 4(1)(l)</text>
+<text x="815" y="423" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">Max B3 (ads) / B2 (analytics; B1 on GOV under Art. 19(1)(c))</text>
+<text x="42" y="446" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">RQ2 Consent &amp; Reject</text>
+<text x="235" y="446" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">I7 (C0–C5), I8–I9 (Profile C)</text>
+<text x="440" y="446" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">PDPL Art. 9(2)–(4), 11(1), 28(8)(b); Decree 356 Art. 6(1)–(3)</text>
+<text x="815" y="446" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">Descriptive (&lt;30 reject sites); B3 candidate for post-reject I8</text>
+<text x="42" y="469" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">RQ3 Cross-Border Flows</text>
+<text x="235" y="469" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">I6 (Entity HQ + DB-IP Lite)</text>
+<text x="440" y="469" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">PDPL Art. 20(1)(b)–(c), 20(6)(a); Decree 356 Art. 17(1), 17(3)</text>
+<text x="815" y="469" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">Capped at B2 (TIA unobservable; GOV/press exemptions noted)</text>
+<text x="42" y="492" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">RQ4 Policy &#x27;Say–Do&#x27; Gap</text>
+<text x="235" y="492" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">P1–P12 (331 valid policies)</text>
+<text x="440" y="492" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">PDPL Art. 4(1)(a), 9(2), 29(6); Decree 356 Art. 42(2) (D.13 repeal)</text>
+<text x="815" y="492" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif" font-size="11" fill="#1E293B">Descriptive transparency gap (no general statutory policy mandate)</text>
+</svg>

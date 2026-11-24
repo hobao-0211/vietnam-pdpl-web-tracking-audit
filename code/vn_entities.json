@@ -1,0 +1,15 @@
+{
+ "_ghi_chu": "Bảng bổ sung entity cho tên miền VN mà DDG/Disconnect không có. Lập TRƯỚC khi tính kết quả đợt chính (protocol §3.3). Trường source: nơi xác minh; [CẦN KIỂM] = chưa đối chiếu hồ sơ pháp nhân.",
+ "admicro.vn": {"entity": "VCCorp", "category": "ads", "hq": "VN", "source": "admicro.vn tự giới thiệu là nền tảng quảng cáo của VCCorp [CẦN KIỂM]"},
+ "vccorp.vn": {"entity": "VCCorp", "category": "ads", "hq": "VN", "source": "[CẦN KIỂM]"},
+ "vcmedia.vn": {"entity": "VCCorp", "category": "functional", "hq": "VN", "source": "CDN nội dung của VCCorp [CẦN KIỂM]"},
+ "amcdn.vn": {"entity": "VCCorp", "category": "ads", "hq": "VN", "source": "CDN script quảng cáo Admicro [CẦN KIỂM]"},
+ "eclick.vn": {"entity": "FPT Online", "category": "ads", "hq": "VN", "source": "mạng quảng cáo Eclick của FPT Online [CẦN KIỂM]"},
+ "adtima.vn": {"entity": "VNG Corporation", "category": "ads", "hq": "VN", "source": "Adtima thuộc VNG [CẦN KIỂM]"},
+ "sp.zalo.me": {"entity": "VNG Corporation", "category": "ads", "hq": "VN", "source": "Zalo Ads pixel endpoint [CẦN KIỂM]"},
+ "ants.vn": {"entity": "ANTS", "category": "ads", "hq": "VN", "source": "[CẦN KIỂM]"},
+ "antsomi.com": {"entity": "ANTS", "category": "ads", "hq": "VN", "source": "[CẦN KIỂM]"},
+ "subiz.com": {"entity": "Subiz", "category": "functional", "hq": "VN", "source": "chat widget [CẦN KIỂM]"},
+ "subiz.net": {"entity": "Subiz", "category": "functional", "hq": "VN", "source": "chat widget [CẦN KIỂM]"},
+ "fchat.vn": {"entity": "Fchat", "category": "functional", "hq": "VN", "source": "chat widget [CẦN KIỂM]"}
+}

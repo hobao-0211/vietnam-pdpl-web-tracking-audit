@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this measurement pipeline, legal codebook, domicile registry, or pseudonymised audit dataset, please cite the accompanying study."
+type: software
+title: "Pre-Consent Web Tracking, Cross-Border Flows, and Policy Disclosure in Vietnam: A First-Year PDPL Measurement Baseline (Replication Package)"
+authors:
+  - family-names: "Ho"
+    given-names: "Bao"
+    orcid: "https://orcid.org/0009-0003-3620-2472"
+    affiliation: "Faculty of Law, Hung Vuong University of Ho Chi Minh City, Ho Chi Minh City, Vietnam"
+    email: "baoh@dhv.edu.vn"
+version: "1.0.0"
+date-released: "2026-11-24"
+repository-code: "https://github.com/hobao-0211/vietnam-pdpl-web-tracking-audit"
+license: "MIT"
+keywords:
+  - web tracking
+  - consent mechanisms
+  - cross-border data flows
+  - privacy policies
+  - Personal Data Protection Law
+  - Vietnam
+  - empirical privacy measurement
+  - regulatory compliance
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Ho"
+      given-names: "Bao"
+      orcid: "https://orcid.org/0009-0003-3620-2472"
+  title: "Pre-Consent Web Tracking, Cross-Border Flows, and Policy Disclosure in Vietnam: A First-Year PDPL Measurement Baseline"
+  journal: "Journal of Cybersecurity and Privacy"
+  year: 2026
+  status: "submitted"

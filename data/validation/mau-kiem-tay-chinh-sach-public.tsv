@@ -1,0 +1,141 @@
+id	site_id	stratum	detector_valid	detector_invalid_reason	detector_PDPL	detector_THIRD	detector_XBORDER	human_valid_01	human_PDPL	human_THIRD	human_XBORDER	human_notes
+P001	GOV-35da874479	GOV	0									
+P002	GOV-067ea61164	GOV	1		AFF	NONE	NONE					
+P003	TM-f24da90d64	TM	1		NONE	AFF	NONE					
+P004	GOV-d9adf590ca	GOV	0									
+P005	KHAC-28b7bfa796	KHAC	1		NONE	AFF	AFF					
+P006	TM-dbd586f20d	TM	1		AFF	AFF	AFF					
+P007	KHAC-9d9a14fa40	KHAC	0	homepage_redirect								
+P008	GOV-e8dbb80ce0	GOV	0	homepage_redirect								
+P009	EDU-121cde0273	EDU	1		NONE	AFF	NONE					
+P010	KHAC-7678f367ec	KHAC	1		NONE	AFF	NONE					
+P011	KHAC-3ab4dbbe85	KHAC	1		NONE	AFF	NONE					
+P012	KHAC-0345ad8be1	KHAC	1		NONE	NONE	NONE					
+P013	GOV-85319ba0c0	GOV	0	homepage_redirect								
+P014	GATED-2093e59456	GATED	0									
+P015	KHAC-8aebc8a03c	KHAC	1		NONE	NONE	NONE					
+P016	KHAC-b688b50a87	KHAC	0	homepage_redirect								
+P017	TM-c9392ef919	TM	1		AFF	NEG_ONLY	NONE					
+P018	TM-ee46cef15f	TM	0	homepage_redirect								
+P019	GATED-7326d1e2b2	GATED	1		NONE	NONE	NONE					
+P020	BC-e69c23d351	BC	0									
+P021	GOV-84e3e6fbd9	GOV	0									
+P022	KHAC-cd4935a7f6	KHAC	1		NONE	NONE	NONE					
+P023	GATED-0b8d077dd3	GATED	0									
+P024	TM-3f7fa3f399	TM	1		NONE	AFF	NONE					
+P025	TM-7817b85938	TM	1		AFF	NONE	NONE					
+P026	KHAC-8390965d52	KHAC	0	news_article								
+P027	KHAC-5ea827ec66	KHAC	1		NONE	AFF	NONE					
+P028	KHAC-52b1f88b04	KHAC	1		NONE	NONE	NONE					
+P029	GATED-a4c87c641d	GATED	0									
+P030	TM-efad46a2d5	TM	0	external_vendor:google.com								
+P031	TM-ec8eac9e68	TM	1		NONE	NONE	NONE					
+P032	TM-c6134574ec	TM	1		NONE	AFF	AFF					
+P033	GATED-2b835bff9d	GATED	0									
+P034	TM-af765030ab	TM	1		NONE	AFF	AFF					
+P035	GOV-a9a2ebf91f	GOV	0	news_article								
+P036	GOV-490be09599	GOV	0	gov_non_policy_article								
+P037	TM-d111ca82a9	TM	0	external_vendor:google.com								
+P038	GOV-671568b5ca	GOV	0									
+P039	KHAC-3a0b2c48e6	KHAC	1		NONE	NONE	NONE					
+P040	GATED-b2ebbbabef	GATED	0	external_vendor:microsoft.com								
+P041	EDU-0b8d41b950	EDU	1		COND	AFF	NONE					
+P042	TM-db2a841a75	TM	1		AFF	COND	AFF					
+P043	TM-939b7a3821	TM	1		NONE	COND	NONE					
+P044	BC-f5a76a4aa7	BC	0									
+P045	TM-fa9bfe1bdb	TM	1		NONE	AFF	NONE					
+P046	EDU-75b7335003	EDU	0									
+P047	TM-e2f043bd40	TM	1		AFF	AFF	NONE					
+P048	EDU-4d6e57f09d	EDU	0									
+P049	GOV-b28e1e936c	GOV	0									
+P050	TM-c339b69779	TM	0	external_vendor:google.com								
+P051	KHAC-f921b41d0f	KHAC	1		NONE	NONE	NONE					
+P052	KHAC-ebb96fb417	KHAC	0	external_vendor:cloudflare.com								
+P053	TM-9f78d0ee9f	TM	0	error_or_challenge								
+P054	GATED-f7a7b85ae1	GATED	0									
+P055	TM-654d7ee5ae	TM	1		AFF	AFF	AFF					
+P056	TM-ba89865dc4	TM	1		NONE	AFF	NONE					
+P057	TM-bba4dbf704	TM	0	external_vendor:google.com								
+P058	BC-6809a4c0f6	BC	0									
+P059	TM-36dcd68c62	TM	0	raw_json								
+P060	GOV-9a0cf2a75d	GOV	0									
+P061	GATED-505d11243e	GATED	0									
+P062	TM-691b92a15c	TM	1		NONE	NONE	NONE					
+P063	GOV-397422d4fc	GOV	0									
+P064	GATED-a864f46dd2	GATED	0	external_vendor:google.com								
+P065	TM-3b75f7249f	TM	0	too_short								
+P066	GATED-2c4d48b594	GATED	0									
+P067	GATED-e413b3d809	GATED	0	external_vendor:mozilla.org								
+P068	GATED-104de88fa7	GATED	1		NONE	AFF	NONE					
+P069	GATED-d02d6c6ea2	GATED	0	homepage_redirect								
+P070	TM-f988278c19	TM	1		NONE	AFF	NONE					
+P071	KHAC-b6ffb9b5fc	KHAC	1		NONE	COND	NONE					
+P072	KHAC-faf6a8fe55	KHAC	1		NONE	AFF	AFF					
+P073	GATED-d328d52413	GATED	0									
+P074	KHAC-02c351ccae	KHAC	0	homepage_redirect								
+P075	TM-37a2e65bf8	TM	1		AFF	COND	AFF					
+P076	TM-e6b98173b6	TM	1		NONE	NONE	NONE					
+P077	KHAC-0acace9707	KHAC	0									
+P078	TM-2c5e43bdab	TM	0	external_vendor:online.gov.vn								
+P079	KHAC-f5daebe6ee	KHAC	1		NONE	NONE	NONE					
+P080	GATED-c5c97a2a58	GATED	1		NONE	NONE	NONE					
+P081	EDU-a2bcd2b4f3	EDU	0									
+P082	TM-604458601e	TM	1		NONE	NONE	NONE					
+P083	KHAC-261b90c0c3	KHAC	0									
+P084	KHAC-cccbfbf86b	KHAC	0	external_vendor:google.com								
+P085	GATED-b88a0d61dc	GATED	1		NONE	NONE	NONE					
+P086	GATED-4e00cc21eb	GATED	0									
+P087	GATED-b80c829e70	GATED	0									
+P088	GATED-ae4df14dd1	GATED	0									
+P089	EDU-31130089cf	EDU	0									
+P090	GOV-8bcc1e43c2	GOV	0									
+P091	KHAC-e6097d9b02	KHAC	1		NONE	AFF	NONE					
+P092	TM-0234af9216	TM	1		NONE	AFF	NONE					
+P093	TM-99530d61f7	TM	1		NONE	NONE	NONE					
+P094	TM-99a688d597	TM	1		AFF	AFF	AFF					
+P095	TM-79c3c220b5	TM	1		AFF	COND	AFF					
+P096	KHAC-fdfdd3a098	KHAC	1		NONE	AFF	NONE					
+P097	GATED-d54a6f6a84	GATED	0	external_vendor:cookiesandyou.com								
+P098	GATED-096b7810fa	GATED	0									
+P099	TM-c03b678b93	TM	0	external_vendor:google.com								
+P100	TM-9b470883db	TM	1		NONE	AFF	NONE					
+P101	TM-336957cfd9	TM	1		NONE	NONE	NONE					
+P102	TM-b83af96c18	TM	1		NONE	AFF	NONE					
+P103	KHAC-d31ed7d3e7	KHAC	1		NONE	AFF	NONE					
+P104	KHAC-9096f9f7a4	KHAC	1		AFF	AFF	NONE					
+P105	TM-6d42d6ed91	TM	1		NONE	NONE	NONE					
+P106	TM-2730cad95f	TM	1		AFF	AFF	NONE					
+P107	TM-b28cb30d0e	TM	1		NONE	NONE	NONE					
+P108	KHAC-1a7d851c02	KHAC	1		NONE	AFF	NONE					
+P109	KHAC-05b4ed6fed	KHAC	1		NONE	AFF	NONE					
+P110	TM-56acb6f0f4	TM	1		NONE	NONE	NONE					
+P111	GOV-c5cae7031a	GOV	0									
+P112	BC-bcc11629fb	BC	1		NONE	AFF	AFF					
+P113	GATED-393d99553d	GATED	1		NONE	NEG_ONLY	NONE					
+P114	TM-67543c722b	TM	0	external_vendor:online.gov.vn								
+P115	EDU-b3f2ba0630	EDU	0									
+P116	GOV-9ab17769f2	GOV	0									
+P117	KHAC-370cd68b82	KHAC	1		NONE	AFF	NONE					
+P118	GOV-3ab80a3e27	GOV	0	homepage_redirect								
+P119	TM-04f31a6291	TM	1		NONE	AFF	NONE					
+P120	KHAC-878ace2618	KHAC	1		NONE	NONE	NONE					
+P121	EDU-50ef94fcd0	EDU	1		NONE	NONE	NONE					
+P122	GOV-dee5479803	GOV	0	external_vendor:google.com								
+P123	GATED-cc6a7d8b77	GATED	0									
+P124	TM-0be17a3c13	TM	1		NONE	AFF	NONE					
+P125	GOV-930e9f670b	GOV	1		NONE	NONE	NONE					
+P126	GOV-352406bc7c	GOV	0									
+P127	KHAC-21a9df4698	KHAC	1		NONE	AFF	AFF					
+P128	TM-f06b929c9a	TM	1		NONE	AFF	NONE					
+P129	KHAC-2d0d46630d	KHAC	1		NONE	AFF	NONE					
+P130	TM-9a8258aa2a	TM	1		NONE	NEG_ONLY	NONE					
+P131	KHAC-39415e5538	KHAC	1		NONE	AFF	NONE					
+P132	GATED-7027317622	GATED	0									
+P133	TM-2eb4a58d07	TM	1		NONE	NONE	AFF					
+P134	GOV-ac23e70255	GOV	0	news_article								
+P135	KHAC-00ae08dd7c	KHAC	0	homepage_redirect								
+P136	GOV-d7c371cb37	GOV	0	gov_non_policy_article								
+P137	TM-0ce419d28d	TM	0	external_vendor:online.gov.vn								
+P138	GATED-02c2f690c3	GATED	0									
+P139	GOV-cd436c42d3	GOV	0									
+P140	GATED-ed002ef7c7	GATED	0									
